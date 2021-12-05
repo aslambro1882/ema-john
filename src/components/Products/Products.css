@@ -1,0 +1,27 @@
+.product-grid{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+}
+img{
+    padding-right: 10px;
+}
+.product{
+    display: flex;
+    border-bottom: 2px solid rgb(218, 216, 216);
+    text-align: left;
+}
+
+.lower-info{
+    display: flex;
+}
+.button-regular{
+    text-align: center;
+}
+button{
+    width: 75%;
+    background-color: goldenrod;
+    border: 1px solid rgb(128, 126, 118);
+    border-radius: 5px;
+    height: 25px;
+    cursor: pointer;
+}
